@@ -1,9 +1,90 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="MnmO3LpP-wFRtYF9NP8j">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="580" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-110" width="580" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-110" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-110" width="210" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-9" value="用户层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-110" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="580" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-11" value="业务层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-12" value="用户模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-13" value="线路模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-14" value="车次模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-15" value="订单模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-16" value="支付模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-17" value="分析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-19" value="关系数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-21" value="持久层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-22" value="登录/注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-23" value="线路/车次搜索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-24" value="在线支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-25" value="在线验票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-26" value="订单管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-27" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-28" value="线路/车次管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-29" value="车票核验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-30" value="分析报表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-31" value="订单管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-32" value="小程序端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aL-A3MlLt4HypSaMRRbP-33" value="管理端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-90" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
