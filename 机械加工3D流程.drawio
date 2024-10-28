@@ -1,9 +1,58 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="YBXHqBLOKnKqtkt-Qi3l">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YJQG3W3xikhZhjCFSP7X-1" target="YJQG3W3xikhZhjCFSP7X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-1" value="上传文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YJQG3W3xikhZhjCFSP7X-2" target="YJQG3W3xikhZhjCFSP7X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YJQG3W3xikhZhjCFSP7X-2" target="YJQG3W3xikhZhjCFSP7X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-2" value="判断文件大小" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YJQG3W3xikhZhjCFSP7X-3" target="YJQG3W3xikhZhjCFSP7X-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-3" value="格式转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YJQG3W3xikhZhjCFSP7X-4" target="YJQG3W3xikhZhjCFSP7X-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-4" value="上传到MINIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-9" value="大于50M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="198" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-10" value="小于50M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="288" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YJQG3W3xikhZhjCFSP7X-11" target="YJQG3W3xikhZhjCFSP7X-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-11" value="返回MINIO地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-13" value="前端通过地址预览模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJQG3W3xikhZhjCFSP7X-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;文件上传后后端返回上传状态&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;并更新转换状态。无需转换的直接是完成&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;需要转换的，带转换完成后更新状态，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;前端可以通过定时轮询的方式查询任务状态&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;模型为转换完成之前禁止对其做操作，&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="240" height="270" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
